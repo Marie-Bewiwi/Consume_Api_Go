@@ -83,15 +83,4 @@ func main() {
 	client = &http.Client{Timeout: 10 * time.Second}
 	GetCatFact()
 	GetRandomUser()
-
-	/* 	catFact := CatFact{
-	   		Fact:   "A random cat fact",
-	   		Length: 17,
-	   	}
-	   	jsonStr, err := json.Marshal(catFact)
-	   	if err != nil {
-	   		fmt.Printf("error marshaling :%s\n", err.Error())
-	   	} else {
-	   		fmt.Printf("Test JSON : %s\n", string(jsonStr))
-	   	} */
 }
